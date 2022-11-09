@@ -1,0 +1,50 @@
+html, body {
+    min-height: 100%;
+}
+
+body{
+    background-color: #FFD1BA;
+    min-height: 100vh;
+    padding: 0;
+}
+
+
+.circle {
+    border-radius: 50%;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    margin: 50px auto;
+}
+
+.pcontainer {
+    font-family: "Poor Story", sans-serif;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    font-size: 7px;
+}
+
+.twitter{
+    width: 10px;
+    height: 10px;
+    bottom: 0;
+
+}
+
+.centered-thing {
+    position: absolute;
+    margin: auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
